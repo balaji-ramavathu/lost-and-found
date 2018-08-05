@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.ramavathubalaji.lost_found.Main22Activity"
+    android:id="@+id/coordinator_layout22">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/testcolor" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="10dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar22"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient1"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+            app:title="Lost-Found"
+            app:titleTextColor="@color/white" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs_main22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient1"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabTextColor="@color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@color/colorAccent"
+        app:backgroundTint="@color/colorAccentLight"
+        app:srcCompat="@drawable/ic_fab" />
+
+</android.support.design.widget.CoordinatorLayout>

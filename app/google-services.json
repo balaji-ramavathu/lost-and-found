@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "77129694184",
+    "firebase_url": "https://lostfoundapp-abfea.firebaseio.com",
+    "project_id": "lostfoundapp-abfea",
+    "storage_bucket": "lostfoundapp-abfea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77129694184:android:e4905d14598489ba",
+        "android_client_info": {
+          "package_name": "com.ramavathubalaji.lost_found"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77129694184-gieg67mvrh44akvrcmfra2k0q80p9trv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYo_0ZCcTb7NvSIlPT_ZrbsfWTqzny0MY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

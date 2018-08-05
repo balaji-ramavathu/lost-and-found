@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ramavathubalaji.lost_found.YourPosts">
+    <item
+        android:id="@+id/action_back"
+        android:orderInCategory="100"
+        android:title="back"
+        android:visible="true"
+        app:showAsAction="never|always"
+        android:icon="@drawable/ic_arrow_back" />
+</menu>

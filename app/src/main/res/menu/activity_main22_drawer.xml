@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chats"
+            android:title="Chats" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_signout"
+            android:title="sign out" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_change_password"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_your_posts"
+            android:icon="@drawable/ic_your_posts"
+            android:title="Your Posts" />
+    </group>
+
+</menu>

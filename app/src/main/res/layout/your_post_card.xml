@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:elevation="1dp"
+        card_view:cardCornerRadius="5dp"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_gradient">
+
+            <TextView
+                android:text="title"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/tvtitle"
+                android:gravity="center_vertical"
+                android:textSize="28sp"
+                android:textColor="@color/card_text_color"
+                android:layout_width="match_parent"
+                android:background="@drawable/border_title_card"
+                android:paddingBottom="8dp"
+                android:paddingRight="4dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:text="example description"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/tvtitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/tvdescription"
+                android:textSize="18sp"
+                android:textColor="@color/card_text_color"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="4dp" />
+
+            <Button
+                android:text="Edit"
+                android:id="@+id/your_btnedit"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/btn_bg_selector"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvdescription"
+                android:textSize="20sp"
+                android:layout_width="180dp" />
+
+            <Button
+                android:text="delete"
+                android:layout_height="wrap_content"
+                android:id="@+id/your_btndelete"
+                android:background="@drawable/btn_bg_selector"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/your_btnedit"
+                android:layout_toRightOf="@+id/your_btnedit"
+                android:layout_toEndOf="@+id/your_btnedit"
+                android:layout_width="180dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

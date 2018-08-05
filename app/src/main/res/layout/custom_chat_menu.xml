@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageButton android:src="@drawable/ic_arrow_back"
+        android:background="?attr/actionBarItemBackground"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/action_chat_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView android:hint="username"
+        android:background="?attr/actionBarItemBackground"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:scaleType="centerInside"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/text_chat_appname"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/action_chat_back"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
